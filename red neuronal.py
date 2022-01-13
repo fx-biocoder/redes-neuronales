@@ -1,9 +1,7 @@
 #   1   -   Importaciones necesarias
-import tensorflow as tf
-import matplotlib.pyplot as plt
+import tensorflow as tf, matplotlib.pyplot as plt, numpy as np
 from tensorflow.keras.layers import Dense
 from keras.models import Sequential
-import numpy as np
 from tensorflow.python.keras.backend import dtype
 
 #   2   -   Función que define movimiento rectilíneo uniforme
